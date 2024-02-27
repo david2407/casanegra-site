@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Accordion from "../components/Acordeon";
+import Avatar from "../components/Avatar"
+---
+
+<Layout title="Casanegra bar">
+  <main>
+    <div class="flex justify-center">
+      <img src="../../public/ncprofile.png" />
+    </div>
+    <br />
+
+    <p class="flex justify-center">
+      Casanegra bar => Fiestero/serioso <br />
+      Horario: <br>
+      Jueves, Viernes y Sábado 6:00 p.m. - 2:00 a.m.<br />
+      Domingo 5:00 p.m. - 10:00 p.m.
+    </p>
+    <br />
+    <Accordion client:load />
+    <br>
+    <h1>Colaboradores:</h1>
+    <br>
+    <Avatar client:load/>
+
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+    font-size: 20px;
+    line-height: 1.6;
+  }
+</style>
