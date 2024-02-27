@@ -2,12 +2,14 @@
 import Layout from "../layouts/Layout.astro";
 import Accordion from "../components/Acordeon";
 import Avatar from "../components/Avatar"
+import { Image } from "astro:assets";
+import casanegraImage from '../../public/ncprofile.png'
 ---
 
 <Layout title="Casanegra bar">
   <main>
-    <div class="flex justify-center">
-      <img src="../../public/ncprofile.png" />
+    <div class="flex justify-center" >
+      <Image src={casanegraImage} alt="Casanegra Bar"/>
     </div>
     <br />
 
