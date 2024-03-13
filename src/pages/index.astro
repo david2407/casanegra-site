@@ -1,31 +1,31 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Accordion from "../components/Acordeon";
-import Avatar from "../components/Avatar"
+import Avatar from "../components/Avatar";
 import { Image } from "astro:assets";
-import casanegraImage from '../../public/ncprofile.png'
+import casanegraImage from "../../public/ncprofile.png";
 ---
 
 <Layout title="Casanegra bar">
   <main>
-    <div class="flex justify-center" >
-      <Image src={casanegraImage} alt="Casanegra Bar"/>
+    <div class="flex justify-center">
+      <Image src={casanegraImage} alt="Casanegra Bar" />
     </div>
     <br />
 
     <p class="flex justify-center">
-      Casanegra bar => Fiestero/serioso <br />
-      Horario: <br>
+      Casanegra bar <br />
+      Ubicación: Avenida 33 #76 - 45 <br />
+      Horario: <br />
       Jueves, Viernes y Sábado 6:00 p.m. - 2:00 a.m.<br />
       Domingo 5:00 p.m. - 10:00 p.m.
     </p>
     <br />
     <Accordion client:load />
-    <br>
+    <br />
     <h1>Colaboradores:</h1>
-    <br>
-    <Avatar client:load/>
-
+    <br />
+    <Avatar client:load />
   </main>
 </Layout>
 
