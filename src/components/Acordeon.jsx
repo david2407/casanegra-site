@@ -6,26 +6,15 @@ const sections = await getCollection("section", (section) => {
   return section.data;
 });
 
+console.log(sections);
+
+
 export default function App() {
-  const content = [
-    {
-      title: "Cervezas artesanales",
-      content: ["La Roja", "Fractalia", "Hakuna", "20 mission", "Hillerbraw"],
-    },
-    {
-      title: "Cervezas nacionales",
-      content: ["Aguila", "Poker", "Club Colombia"],
-    },
-    {
-      title: "Cocteles",
-      content: ["Mojito", "Cuba Libre", "Margarita"],
-    },
-  ];
-  console.log(sections);
+  const orderedSections = sections.sort((a, b) => a.data.order - b.data.order);
   return (
     <>
       <Accordion variant="splitted">
-        {sections.map((item, index) => (
+        {orderedSections.map((item, index) => (
           <AccordionItem
             key={index}
             aria-label={item.data.title}
@@ -40,7 +29,7 @@ export default function App() {
                     title={subSection.description}
                   >
                     {subSection.items.map((item) => (
-                      <div className="item">
+                      <div className="item-background">
                         <h1>{item.description}</h1>
                         <h1>{item.value}</h1>
                       </div>

@@ -1,6 +1,7 @@
 ---
 
 title: Cervezas nacionales
+order: 2
 subSections:
   - title: Aguila
     description: $7
@@ -20,9 +21,24 @@ subSections:
         value: $8
       - description: Negra
         value: $8
+  - title: Costeñita
+    description: $5
+    items:
+  - title: Aguila cero
+    description: $7
+    items:
   - title: Corona
     description: $10
     items:
+  - title: Jarra
+    description: $10
+    items:
+      - description: Aguila
+        value: $35
+      - description: Poker
+        value: $35
+      - description: Club dorada
+        value: $40
 
     
 ---

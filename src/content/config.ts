@@ -4,6 +4,7 @@ const sectionCollection = {
   section: defineCollection({
     schema: z.object({
       title: z.string(),
+      order: z.number(),
       subSections: z.array(
         z.object({
           title: z.string(),

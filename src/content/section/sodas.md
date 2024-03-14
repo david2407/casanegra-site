@@ -1,17 +1,23 @@
 ---
 
-title: Sodas
+title: Sodas saborizadas
+order: 7
 subSections:
-  - title: Tamarindo
+  - title: Sandia y pepino
     description: $10
     items:
-  - title: Mango
+  - title: Manzana verde
     description: $10
     items:
-  - title: Fresa
+  - title: Mango biche
+    description: $10
+    items:
+  - title: Marcuya y romero
+    description: $10
+    items:
+  - title: Tamarindo y limón
     description: $10
     items:
 
-    
 ---
 

@@ -1,24 +1,25 @@
 ---
 
 title: Ceverzas artesanales
+order: 1
 subSections:
   - title: La roja
     description: La roja
     items:
+      - description: Red Ale
+        value: $13
       - description: Rubia
-        value: $12
-      - description: Roja
-        value: $16
+        value: $13
       - description: Negra
-        value: $16
+        value: $13
   - title: Hakuna
     description: Hakuna
     items:
-      - description: Marinera
-        value: $12
+      - description: El Jefe
+        value: $16
       - description: Melosa
-        value: $12
-      - description: Jefe
+        value: $16
+      - description: Marinera
         value: $16
       - description: Noctambula
         value: $16
@@ -27,67 +28,65 @@ subSections:
   - title: 20 mission
     description: 20 mission
     items:
-      - description: Marinera
-        value: $12
-      - description: Melosa
-        value: $12
-      - description: Jefe
-        value: $16
-      - description: Noctambula
-        value: $16
-      - description: India
-        value: $16
+      - description: Blonde
+        value: $15
+      - description: Pale Ale
+        value: $15
+      - description: Saison
+        value: $15
+      - description: IPA
+        value: $15
+      - description: Portes
+        value: $15
   - title: Fractalia
     description: Fractalia
     items:
-      - description: Marinera
-        value: $12
-      - description: Melosa
-        value: $12
-      - description: Jefe
-        value: $16
-      - description: Noctambula
-        value: $16
-      - description: India
-        value: $16
+      - description: Porter
+        value: $14
+      - description: Wheat ale
+        value: $14
+      - description: Amber pale ale
+        value: $14
+      - description: Irish red ale
+        value: $14
+      - description: Citra smash APA
+        value: $14
   - title: 7 Cerros
     description: 7 Cerros
     items:
-      - description: Marinera
-        value: $12
-      - description: Melosa
-        value: $12
-      - description: Jefe
-        value: $16
-      - description: Noctambula
-        value: $16
-      - description: India
-        value: $16
+      - description: Nutibara
+        value: $15
+      - description: Picacho
+        value: $15
+      - description: Asomadera
+        value: $15
+      - description: Sto. Domingo
+        value: $15
   - title: Hillerbraw
     description: Hillerbraw
     items:
-      - description: Marinera
-        value: $12
-      - description: Melosa
-        value: $12
-      - description: Jefe
+      - description: Negra
         value: $16
-      - description: Noctambula
+      - description: Roja
+        value: $16
+      - description: Ambar
+        value: $16
+      - description: Trigo
         value: $16
       - description: India
         value: $16
   - title: 3 cordilleras
     description: 3 cordilleras
     items:
-      - description: Marinera
+      - description: Mona
         value: $12
-      - description: Melosa
+      - description: Mestiza
         value: $12
-      - description: Jefe
+      - description: Mulata
         value: $16
-      - description: Noctambula
+      - description: Negra
         value: $16
-      - description: India
+      - description: Rosada
         value: $16
 ---
 
