@@ -18,7 +18,7 @@ subSections:
   - title: Ron Caldas 5 años
     description: $130
     items:
-  - title: Voska Absolut
+  - title: Vodka Absolut
     description: $180
     items:
   - title: Whiskey Jameson

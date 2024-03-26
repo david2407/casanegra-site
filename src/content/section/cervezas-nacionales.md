@@ -31,7 +31,7 @@ subSections:
     description: $10
     items:
   - title: Jarra
-    description: $10
+    description: Jarra
     items:
       - description: Aguila
         value: $35

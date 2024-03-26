@@ -16,15 +16,15 @@ subSections:
     description: Hakuna
     items:
       - description: El Jefe
-        value: $16
+        value: $15
       - description: Melosa
-        value: $16
+        value: $15
       - description: Marinera
-        value: $16
+        value: $15
       - description: Noctambula
-        value: $16
+        value: $15
       - description: India
-        value: $16
+        value: $15
   - title: 20 mission
     description: 20 mission
     items:
@@ -66,15 +66,15 @@ subSections:
     description: Hillerbraw
     items:
       - description: Negra
-        value: $16
+        value: $15
       - description: Roja
-        value: $16
+        value: $15
       - description: Ambar
-        value: $16
+        value: $15
       - description: Trigo
-        value: $16
+        value: $15
       - description: India
-        value: $16
+        value: $15
   - title: 3 cordilleras
     description: 3 cordilleras
     items:
@@ -83,10 +83,10 @@ subSections:
       - description: Mestiza
         value: $12
       - description: Mulata
-        value: $16
+        value: $12
       - description: Negra
-        value: $16
+        value: $12
       - description: Rosada
-        value: $16
+        value: $12
 ---
 

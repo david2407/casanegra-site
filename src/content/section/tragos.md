@@ -12,7 +12,7 @@ subSections:
   - title: Tequila
     description: $11
     items:
-  - title: Voska
+  - title: Vodka
     description: $11
     items:
   - title: Ginebra
